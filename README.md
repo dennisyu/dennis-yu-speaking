@@ -4,6 +4,8 @@ Canonical, public-safe copy for booking Dennis Yu as **CEO of Local Service Spot
 
 Use this repo to fill [eSpeakers](https://www.espeakers.com/marketplace/profile/48283), keep [dennisyu.com/speaking](https://dennisyu.com/speaking/) current, and send one-sheets to association and campus organizers.
 
+The runnable SOP is [`skills/keep-speaker-bureau-profile-bookable/SKILL.md`](skills/keep-speaker-bureau-profile-bookable/SKILL.md). The definitive article is https://blitzmetrics.com/speaker-kit/.
+
 Dennis previously operated under BlitzMetrics. Current public positioning is Local Service Spotlight.
 
 ## Fees
@@ -30,6 +32,7 @@ Most speakers show slides. Dennis brings a live business, a laptop, and an AI ag
 | [`stages.md`](stages.md) | Documented appearances |
 | [`media.md`](media.md) | Photos, videos, press |
 | [`espeakers.md`](espeakers.md) | Field-by-field paste map for eSpeakers |
+| [`skills/keep-speaker-bureau-profile-bookable/SKILL.md`](skills/keep-speaker-bureau-profile-bookable/SKILL.md) | Agent SOP — other agents can install this |
 | [`pages/dennisyu-com-speaking.html`](pages/dennisyu-com-speaking.html) | Source for dennisyu.com/speaking |
 
 ## Book
