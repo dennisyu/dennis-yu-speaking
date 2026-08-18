@@ -7,6 +7,18 @@ Damon Burton's Optimize Live mastermind (Layton, UT, August 17–19, 2026, 1857 
 - Schema injector: `scripts/inject-optimize-seo.py`
 - Publisher: `scripts/publish-optimize-page.py`
 
+## Live talk order (presenting in the room)
+
+Do **not** lead with the QR. Five beats, top of page as numbered cards:
+
+1. **`#proof` Stories** — Vegas sushi (Dec 12, 2023), office podcast (`X3pwjZRRMKc`), polaroid (same day as podcast, year on print wrong), airport/limo, cookies, Facebook walls, reciprocal articles.
+2. **`#cred` Credibility** — audit **Damon the person** (book, clients he names, press he cites, 100-ep podcast, YouTube, reciprocal writing). Verdict: Pass with notes. Traffic: not invented. Knowledge Panel: run it live. Personal-brand tiers for the **room** stay at `#you`.
+3. **`#wheel` + `#hits`** — Topic Wheel WHY → HOW → WHAT mapped onto Damon. Greatest hits are the content already on the spokes (Outrank, flagship posts, YouTube, Learning From Others). Canonical: https://dennisyu.com/topic-wheel/ and https://blitzmetrics.com/topic-wheel/
+4. **`#amplify`** — AI (Content Factory, definitive article, mentions/entity) fills the wheel. **Dollar a Day is the amplifier, not the invention.** $1/day × 7, kill bottom 90%, scale unicorns. Canonical: https://blitzmetrics.com/dad/
+5. **`#pack`** — QR + 10-skill prompt **after** the method.
+
+Page plumbing `#audit` stays last. Brand bar jumps: Stories · Credibility · Wheel · Amplify · Pack.
+
 ## Audit this page
 
 On-page `#audit` (linked from the brand bar, under the H1, and the footer). This is a **microsite technical + entity audit**, not a Knowledge Panel scorecard. DealCon’s Panel ✓ / Object / Buried / Invisible tiers are for people.
@@ -39,8 +51,8 @@ The Custom HTML includes a second JSON-LD `@graph` (`#optimize-entity-graph`) wi
 - PodcastSeries + PodcastEpisode + VideoObject: LSS Ep 1, YouTube `X3pwjZRRMKc`
 - ImageObject: each relationship photo with caption, dimensions, `about` people
 - HowTo: the 60-second install
-- FAQPage: matches the visible FAQ (includes “Where is the schema?” and “What are Damon’s greatest hits on this page?”)
-- WebPageElement: `#audit` and `#hits`
+- FAQPage: matches the visible FAQ (includes live-talk order and “How does Dollar a Day fit?”)
+- WebPageElement: `#cred`, `#wheel`, `#hits`, `#amplify`, `#pack`, `#audit`
 - Book: Outrank (`#book-outrank`) + ItemList `#hits-list`
 - Extra VideoObject + Learning From Others PodcastSeries/Episode
 
@@ -65,7 +77,7 @@ The page keeps an empty `#damon-bobblehead` slot and the audit marks it as a **g
 
 ## Damon’s greatest hits (`#hits`)
 
-Visual section after relationship proof, before the prompt. Ranked by **authority and channel**, not invented Ahrefs numbers. Brand bar + H1 cue + footer jump to it.
+Visual section **after** stories, credibility, and the Topic Wheel — the spokes, by channel. Ranked by **authority and channel**, not invented Ahrefs numbers. Brand bar + talk cards + footer jump to it.
 
 - **Book:** *Outrank* (ISBN 1098302079, BookBaby 2020). Cover from Damon’s FreeSEObook funnel. Free PDF https://www.freeseobook.com/ · Amazon paperback · Audible `B08XMF2RFM`. William Jones quote screenshot from the same funnel.
 - **Site:** four cards with Damon’s own OG images — Tony Robbins SEO (homepage flagship), Why so many people suck at SEO (Entrepreneur), Where to start when you’re new to SEO, Simple But Great SEO Hack (19% line quoted as *his* caption).
@@ -75,6 +87,10 @@ Visual section after relationship proof, before the prompt. Ranked by **authorit
 - **Schema:** `Book` `#book-outrank`, `ItemList` `#hits-list`, extra `VideoObject`s, `PodcastSeries` `#podcast-lfo` + episode, `WebPageElement` `#hits`. FAQ question matches the visible copy.
 
 Do not invent view counts or Ahrefs traffic. Quote Damon when using the 19% line.
+
+## Dollar a Day (`#amplify`)
+
+Paid is the volume knob. Stories and hits first. Topic Wheel labels them. AI fills the wheel. Then audition $1/day × 7 on WHY pieces that already have organic proof. Canonical: https://blitzmetrics.com/dad/
 
 ## Voice
 
