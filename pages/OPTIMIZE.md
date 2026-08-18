@@ -17,7 +17,9 @@ Do **not** lead with the QR. Five beats, top of page as numbered cards:
 4. **`#amplify`** — AI (Content Factory, definitive article, mentions/entity) fills the wheel. **Dollar a Day is the amplifier, not the invention.** $1/day × 7, kill bottom 90%, scale unicorns. Canonical: https://blitzmetrics.com/dad/
 5. **`#pack`** — QR + 10-skill prompt **after** the method.
 
-Page plumbing `#audit` stays last. Brand bar jumps: Stories · Credibility · Wheel · Amplify · Pack.
+After the pack / skills, **`#boost`** is the live Dollar a Day example (most of the way down the page — not a sixth talk beat). CoachYu + Damon, YouTube `U0LU6mKgls8`.
+
+Page plumbing `#audit` stays last. Brand bar jumps: Stories · Credibility · Wheel · Amplify · Pack. Footer also jumps to `$1/day demo`.
 
 ## Audit this page
 
@@ -52,9 +54,10 @@ The Custom HTML includes a second JSON-LD `@graph` (`#optimize-entity-graph`) wi
 - ImageObject: each relationship photo with caption, dimensions, `about` people
 - HowTo: the 60-second install
 - FAQPage: matches the visible FAQ (includes live-talk order and “How does Dollar a Day fit?”)
-- WebPageElement: `#cred`, `#wheel`, `#hits`, `#amplify`, `#pack`, `#audit`
+- WebPageElement: `#cred`, `#wheel`, `#hits`, `#amplify`, `#pack`, `#boost`, `#audit`
 - Book: Outrank (`#book-outrank`) + ItemList `#hits-list`
 - Extra VideoObject + Learning From Others PodcastSeries/Episode
+- CoachYu VideoObject `#video-coachyu-damon` (`U0LU6mKgls8`)
 
 Visible HTML also has entity chips, `<address>`, `<time datetime>`, image `width`/`height` on the hero stills, and a FAQ. Featured image is set via REST (`featured_media` 37962, the limo selfie of Dennis + Damon) so `og:image` is not the generic 2022 headshot.
 
@@ -91,6 +94,19 @@ Do not invent view counts or Ahrefs traffic. Quote Damon when using the 19% line
 ## Dollar a Day (`#amplify`)
 
 Paid is the volume knob. Stories and hits first. Topic Wheel labels them. AI fills the wheel. Then audition $1/day × 7 on WHY pieces that already have organic proof. Canonical: https://blitzmetrics.com/dad/
+
+## Live $1/day demo (`#boost`) — CoachYu + Damon, YouTube `U0LU6mKgls8`
+
+Most of the way down the page: **after `#skills`, before `#audit`**. Linked from `#amplify`, the follow-along cue, and the footer. This is the stage demo of Grok driving ads.
+
+- **Video:** `https://www.youtube.com/watch?v=U0LU6mKgls8` — title `RAW - CoachYu Show with Damon Burton  - Nov 2021`, channel **BlitzMetrics** (`@Blitzmetrics`), not `@DennisYu`. Same relationship as the Vegas sushi/limo stills; earlier walk (Nov 2021), not the Dec 12, 2023 sushi photo.
+- **GCT:** Goal = retargeting pool + authority for this room. Content = this lighthouse/podcast clip. Targeting last.
+- **Targeting brief:** United States, 25–64, English. Lighthouse-adjacent: Damon Burton / SEO National / Outrank. Related: SEO, digital-marketing agency owners, local SEO, Russell Brunson / ClickFunnels, Tony Robbins (clients Damon names). Warm first: page engagers + video viewers if the pixel is on. **One ad set. $1/day × 7.**
+- **Platform:** Dollar a Day is a **Meta Page boost** (facebook.com/dennisyu or facebook.com/getfound), not YouTube Ads, not a personal-profile post. Native video outperforms a YouTube link; this demo uses the YouTube URL because that is the source file.
+- **Spend status (18 Aug 2026):** **Not live.** This cloud VM has WordPress REST. It does **not** have `FB_AUTH_TOKEN` / AWS `FB_SECRET` / a YouTube `youtube.force-ssl` refresh token (those live in OS keychain / AWS Secrets, by design not in Drive). Do not invent a campaign ID.
+- **YouTube write:** still unlisted as of oEmbed. Embed works. Paste-ready description is in the `#boost` drawer and **must** include the exact line `Dennis: remember to boost this for $1 a day`. To publish: YouTube Studio → Visibility → Public, paste description. Or put `youtube_refresh_token` in env and re-run.
+
+Do not bump the audit score for a fake campaign. The gap pill on `#boost` is the lesson.
 
 ## Voice
 
