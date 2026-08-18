@@ -111,7 +111,7 @@
   <div class="hero">
     <div class="qrcard">
       <div class="lab">① Scan with your phone camera</div>
-      <div class="qr"><img decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAEIAQAAAACLjVdSAAABlUlEQVR4nO2ZS47DMAxDH4Pc/8qchSQnHUzRVVVh3CyM2OCCIWR9GJkXz/EK8EX8Y8QJijejXI3wOp3CtE0PDCCwHDtZ1+kUpo0ISQCEIJd1OotpL8JWhAd+gujh8UHE+WufF0WXIFOYNiJsA0R0lCR1Oorp2xEnq8AAyLIiOup0CtMexO1iCLAsrwhp5DEFIUd1BVdYLE1ClSlM+xAyUVGkaMiy4tr79R8ZH0a+rs7Vj7XxGISID7csZT/maEWEZjFtQGT2rNEFZwYBQpgxTHsQOJvRPxbb2FOYdtbbyiLKQInQ2DE+Yp4rXayoNMIS9n754wDpHhHKht1G2i8+sDNZhAbOMnsdTWHa6AcpPKBQJt6XPTaGaSdCcTVW/6GYbTfMH4qxpQqLMpPE9KL9/NOH+dbLRg1d2E+Pm79uyg8SKdR+9eXmr8uu6KAyaxuPKYjq18tCdvYesG+9rSdbVDkNdm1Ybx/8deUt8foFs50eB5ST7pVJwgDJ7Simb0eUUxqznNYPqcsGmcK0vf/4KI8vYibiB1tDyOA3Bu3UAAAAAElFTkSuQmCC" alt="QR code to dennisyu.com/optimize"></div>
+      <div class="qr"><img decoding="async" src="https://api.qrserver.com/v1/create-qr-code/?size=290x290&amp;margin=8&amp;data=https%3A%2F%2Fdennisyu.com%2Foptimize" alt="QR code to dennisyu.com/optimize"></div>
       <div class="url">dennisyu.com<span class="slash">/optimize</span></div>
       <div class="hint">Opens this page on your phone, so you can copy the prompt.</div>
     </div>
@@ -127,7 +127,7 @@
     <div class="ph">
       <h2>The prompt — paste this into Claude</h2>
       <span class="tag">Copy · Paste · Send</span>
-      <button class="copybtn" id="copyBtn" onclick="copyPrompt()">⧉ Copy the prompt</button>
+      <button class="copybtn" id="copyBtn" onclick="copyPrompt()">⿰ Copy the prompt</button>
     </div>
     <div class="promptbox">
 <pre class="prompt" id="prompt"><span class="h">You are my SEO Agency and Personal Brand system, built on Dennis Yu's "Local Service Spotlight" method — from Damon Burton's Optimize Live in Layton.</span> You run a 10-skill library, in order, to make me (and my agency) the name Google and AI recommend, earn a Knowledge Panel, and turn proof into clients.
@@ -304,7 +304,7 @@ START NOW, in this order:
     var done = function(){
       btn.classList.add('done'); btn.textContent = '✓ Copied!';
       var t = document.getElementById('toast'); t.classList.add('show');
-      setTimeout(function(){ btn.classList.remove('done'); btn.textContent = '⧉ Copy the prompt'; }, 2200);
+      setTimeout(function(){ btn.classList.remove('done'); btn.textContent = '⿰ Copy the prompt'; }, 2200);
       setTimeout(function(){ t.classList.remove('show'); }, 2200);
     };
     if(navigator.clipboard && navigator.clipboard.writeText){
@@ -350,12 +350,12 @@ START NOW, in this order:
 5. Verify it works by pulling today’s trends, then suggest three ways to combine X research with the skills in my pack.
 
 Explain each step in plain English as you go. If anything fails, check the troubleshooting table at docs.x.com/tools/mcp and fix it.</pre>
-<button class="dyxu-copy" id="dyxu-cb" type="button">⧉ Copy the setup prompt</button>
+<button class="dyxu-copy" id="dyxu-cb" type="button">⿰ Copy the setup prompt</button>
 </div>
 <p class="dyxu-fine">Technical members: full details at <a href="https://docs.x.com/tools/mcp" target="_blank" rel="noopener">docs.x.com/tools/mcp</a>. Everyone else: this box is where every pack update lands — when you hear us announce something new, come back to this page, copy one prompt, and your agent handles the rest.</p>
 </div>
 <script>
-(function(){var b=document.getElementById('dyxu-cb'),p=document.getElementById('dyxu-p');if(!b||!p)return;b.addEventListener('click',function(){var t=p.innerText;function d(){b.textContent='✓ Copied — now paste it into Claude';b.classList.add('done');setTimeout(function(){b.textContent='⧉ Copy the setup prompt';b.classList.remove('done');},3000);}function f(){var a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy');}catch(e){}document.body.removeChild(a);d();}if(navigator.clipboard){navigator.clipboard.writeText(t).then(d).catch(f);}else{f();}});})();
+(function(){var b=document.getElementById('dyxu-cb'),p=document.getElementById('dyxu-p');if(!b||!p)return;b.addEventListener('click',function(){var t=p.innerText;function d(){b.textContent='✓ Copied — now paste it into Claude';b.classList.add('done');setTimeout(function(){b.textContent='⿰ Copy the setup prompt';b.classList.remove('done');},3000);}function f(){var a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy');}catch(e){}document.body.removeChild(a);d();}if(navigator.clipboard){navigator.clipboard.writeText(t).then(d).catch(f);}else{f();}});})();
 </script>
 <!-- dy-pack-updates:end -->
 
