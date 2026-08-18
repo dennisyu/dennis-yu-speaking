@@ -91,9 +91,10 @@ def main() -> None:
         "status": "publish",
         "excerpt": EXCERPT,
         "content": content,
-        "author": 30,
         "comment_status": "closed",
         "ping_status": "closed",
+        # Limo selfie of Dennis + Damon until the bobblehead still finishes uploading.
+        "featured_media": 37962,
     }
 
     if page_id:
