@@ -14,5 +14,6 @@ Do **not** put street address or private phone in this repo.
 | Also | https://localservicespotlight.com/speaking/ |
 | Travels from | Las Vegas, NV, United States |
 | Gender | already set on eSpeakers — do not change unless Dennis asks |
+| Mailing | On the eSpeakers contact record only (Las Vegas, NV 89102). Do not commit street or suite to this repo. |
 
-Previous operating company: BlitzMetrics. Do not use “Your Content Factory” or `youcontentfactory.com` (typos currently on the live eSpeakers contact form).
+Previous operating company: BlitzMetrics. Do not use “Your Content Factory” or `youcontentfactory.com`.
