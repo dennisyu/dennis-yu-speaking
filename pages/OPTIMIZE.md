@@ -7,6 +7,19 @@ Damon Burton's Optimize Live mastermind (Layton, UT, August 17–19, 2026, 1857 
 - Schema injector: `scripts/inject-optimize-seo.py`
 - Publisher: `scripts/publish-optimize-page.py`
 
+## Audit this page
+
+On-page `#audit` (linked from the brand bar, under the H1, and the footer). This is a **microsite technical + entity audit**, not a Knowledge Panel scorecard. DealCon’s Panel ✓ / Object / Buried / Invisible tiers are for people.
+
+The section shows:
+
+- Score **84 — pass with notes** from a live fetch of this URL
+- Buttons to Google Rich Results Test, Schema Markup Validator, KG Explorer, GKP
+- Pass/fail table (title, meta, canonical, robots, H1, og:image, alts, two JSON-LD graphs, entities, gaps)
+- Human schema inventory + `<details>` raw JSON-LD (our Event graph + Rank Math chrome)
+
+Honest gaps left public: dual Rank Math **Article** vs our **Event** as the main story; HowTo is valid schema.org but Google deprecated HowTo rich results in many locales; Speakable is experimental; QR PNG is third-party `api.qrserver.com`; polaroid print still shows 2023 (caption discloses it); **bobblehead stills are not on the page**.
+
 ## Polaroid date
 
 The middle polaroid is **the same day as the office podcast** (Damon, Dennis, Sam). It is **not 2023**. It was more than a year before Optimize Live 2026. The year handwritten on the print is wrong. Do not put “Oct 22, 2023” back in the caption or alt.
@@ -15,9 +28,9 @@ The Dec 12, 2023 Vegas sushi photo is a different day and can keep that date. Da
 
 ## Schema
 
-Rank Math already emits Organization+Person, WebSite, WebPage, BreadcrumbList, ImageObject, and Article. That is site chrome. It does **not** tag the event, the other people, the companies, the podcast, or the photos.
+Rank Math already emits Organization+Person, WebSite, WebPage, BreadcrumbList, ImageObject (now the featured limo selfie at 978×966), and Article. That is site chrome. It does **not** tag the event, the other people, the companies, the podcast, or the photos.
 
-The Custom HTML now includes a second JSON-LD `@graph` (`#optimize-entity-graph`) with distinct `@id`s (do not collide with Rank Math’s `#person`, `#website`, `#webpage`, `#breadcrumb`, `#richSnippet`):
+The Custom HTML includes a second JSON-LD `@graph` (`#optimize-entity-graph`) with distinct `@id`s (do not collide with Rank Math’s `#person`, `#website`, `#webpage`, `#breadcrumb`, `#richSnippet`):
 
 - Event: Optimize Live, mixed attendance, Layton venue, offers (VIP sold out / virtual in stock)
 - Person: Dennis Yu, Damon Burton, Sam McLeod, Cam Hazzard, Dylan Haugen, Marko Sipila, Richie Taylor, Taylor Cameron
@@ -26,17 +39,20 @@ The Custom HTML now includes a second JSON-LD `@graph` (`#optimize-entity-graph`
 - PodcastSeries + PodcastEpisode + VideoObject: LSS Ep 1, YouTube `X3pwjZRRMKc`
 - ImageObject: each relationship photo with caption, dimensions, `about` people
 - HowTo: the 60-second install
-- FAQPage: matches the visible FAQ on the page (Google wants visible FAQ)
+- FAQPage: matches the visible FAQ (includes “Where is the schema?”)
+- WebPageElement: `#audit`
 
 Visible HTML also has entity chips, `<address>`, `<time datetime>`, image `width`/`height` on the hero stills, and a FAQ. Featured image is set via REST (`featured_media` 37962, the limo selfie of Dennis + Damon) so `og:image` is not the generic 2022 headshot.
 
-We encourage SEO people to audit this URL with Ahrefs, Sitebulb, Rank Math, Rich Results Test, Schema Markup Validator, or `knowledge-panel-entity-seo`.
+## Bobblehead photos (still a gap)
 
-## Bobblehead photo (still landing)
+Dennis said two photos of him and the bobblehead Damon gave him at Optimize Live (18 Aug 2026) are live (Facebook). They were **not** in:
 
-Dennis posted a photo of Damon and him with the bobblehead Damon just gave him at Optimize Live (18 Aug 2026) to Facebook. It was not in Drive/Google Photos at publish time (camera-roll stills after 16:49 UTC were only `IMG_1433.MOV` at 32 MB — too large for the Drive MCP download cap — plus an unrelated 2024 Live Photo zip). The page has a labeled `#damon-bobblehead` slot. Drop the JPEG/HEIC in when Photos finishes uploading; then set `featured_media` to that attachment.
+- WordPress media on dennisyu.com (newest still 37968, Facebook screenshots at 16:54Z)
+- Drive camera folder (only `IMG_1433.MOV` at 32 MB — over the Drive MCP 10 MB download cap; no matching HEIC)
+- Google Photos Drive folders, Gmail attachments, or a public Facebook/Instagram fetch (login wall)
 
-Do not use `damon_dennis_twinning.jpg` — that Drive file is Dennis with a different person, not Damon.
+The page keeps an empty `#damon-bobblehead` slot and the audit marks it as a **gap**. Do not use a stock shot. Do not use `damon_dennis_twinning.jpg` (Dennis with a different person). When the JPEGs land in Drive or WP, upload via REST `/wp/v2/media`, put them in that slot, add `ImageObject`(s), and set `featured_media` to the better still.
 
 ## Relationship proof already on the page
 
