@@ -6,13 +6,19 @@ Public: https://www.espeakers.com/marketplace/profile/48283
 
 Paste from this repo. Do not invent fees or brand names.
 
-## Current live problems (as of 2026-08-16)
+## Current live problems (as of 2026-08-18)
 
-- Public profile almost empty: AZ, US, “inquire for fees”
-- eSEO rank **35**; monthly email said add fees, programs, 3 future calendar dates
-- Contact form still says business **Your Content Factory** and site **youcontentfactory.com** (typo)
-- Photo exists at streamer.espeakers.com asset 266964 — replace if it is outdated
-- Basics marked “Great”; Topics, Bio, Programs, Fees, Calendar, Virtual marked Missing
+Public: https://www.espeakers.com/marketplace/profile/48283/dennis-yu
+
+Shipped this run: published fees ($5k+ on-site, $5k virtual), 7 programs from `programs/`, full bio (LSS), 6 topic tags, 4 industry tags, virtual flags, NSA membership.
+
+Still broken / human:
+
+- Contact **business name** and **website** keep reverting to Your Content Factory / youcontentfactory.com after Save. City Las Vegas and travels-from NV stick; public marketplace still shows **AZ, US**.
+- Calendar still Missing (need 3 future holds: DealCon Austin Oct 2026, Search Marketing Summit Sydney Oct 2026, DigiMarCon).
+- Hub still marks Audience Benefits “Missing” even though the full bio is live on marketplace.
+- Video / media kit / recommendations are PRO-gated.
+- Do not put street address or private phone on this public profile.
 
 ## Field → file
 
