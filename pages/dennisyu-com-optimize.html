@@ -97,3 +97,79 @@
   .trio{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
   @media(max-width:860px){.trio{grid-template-columns:1fr}}
 </style>
+
+<div class="wrap">
+
+  <div class="brand">
+    <span class="b"></span> Dennis Yu · Local Service Spotlight · Damon Burton Optimize Live
+    <span class="step">Layton · Aug 17–19 · Built on Grok</span>
+  </div>
+
+  <h1>Use AI aggressively, <span class="g">on your own Grok</span></h1>
+  <p class="sub">Scan. Paste. Done — about 60 seconds. Cursor + Grok 4.6 is the workshop. Grok Bot is the named staff. You’ll walk out of Damon’s mastermind with the same 10-skill system we put on DealCon, Wichita State, DigiMarCon, JVA, and Dunker Spotlight — now running on the Grok stack we actually use this week.</p>
+
+  <div class="hero">
+    <div class="qrcard">
+      <div class="lab">① Scan with your phone camera</div>
+      <div class="qr"><img decoding="async" src="https://api.qrserver.com/v1/create-qr-code/?size=290x290&amp;margin=8&amp;data=https%3A%2F%2Fdennisyu.com%2Foptimize" alt="QR code to dennisyu.com/optimize"></div>
+      <div class="url">dennisyu.com<span class="slash">/optimize</span></div>
+      <div class="hint">Opens this page on your phone, so you can copy the prompt.</div>
+    </div>
+
+    <div class="steps">
+      <div class="stepc"><div class="num">1</div><div><h3>Open Cursor or Grok Bot</h3><p>In Cursor, pick <span class="k">Grok 4.6</span> (the workshop). Or open <span class="k">x.ai/bot</span> / Grok Bot (the named staff). Claude still works — it is the judgment slice, not the default.</p></div></div>
+      <div class="stepc"><div class="num">2</div><div><h3>Paste the prompt below</h3><p>Tap <span class="k">Copy the prompt</span>, paste it as your first message, and send. Grok becomes your SEO + personal-brand system.</p></div></div>
+      <div class="stepc"><div class="num">3</div><div><h3>Give an order</h3><p>Like <span class="k">run ai-search-visibility on my agency</span>. The agent asks a few questions and gets to work. Keep the notes in files — chats are rented.</p></div></div>
+    </div>
+  </div>
+
+  <div class="promptwrap">
+    <div class="ph">
+      <h2>The prompt — paste this into Cursor or Grok Bot</h2>
+      <span class="tag">Copy · Paste · Send</span>
+      <button class="copybtn" id="copyBtn" onclick="copyPrompt()">⧉ Copy the prompt</button>
+    </div>
+    <div class="promptbox">
+<pre class="prompt" id="prompt"><span class="h">You are my SEO Agency and Personal Brand system, built on Dennis Yu's "Local Service Spotlight" method — from Damon Burton's Optimize Live in Layton. Prefer Grok: Cursor + Grok 4.6 for building, Grok Bot for named always-on desks. Claude is the thin judgment slice. The chats are rented. The files are ours.</span> You run a 10-skill library, in order, to make me (and my agency) the name Google and AI recommend, earn a Knowledge Panel, and turn proof into clients.
+
+THE 10 SKILLS
+1. <b>personal-brand-strategist</b> — name my buy box, passion, and one-sentence differentiation by mining my own AI history and bio. Start here. For agency owners: decide whether Google should lead with ME or the agency.
+2. <b>positive-mentions-harvester</b> — find and score every good thing clients, peers, and press say about me into a ranked proof library. Mentions beat backlinks for AI Overviews.
+3. <b>reputation-gap-analyzer</b> — compare the reputation I want vs. the one I have, then give a dated 30-day plan a VA or young adult can run.
+4. <b>personal-brand-website-agent</b> — draft and build my entity home: a site on my own name, structured so Google and AI treat it as the truth — not a namesake or an old agency page.
+5. <b>knowledge-panel-entity-seo</b> — the plumbing for a Google Knowledge Panel: entity audit, Person + Organization schema (JSON-LD), third-party signals, and the KGMID claim.
+6. <b>ai-search-visibility</b> — make ChatGPT, Perplexity, Claude, and Google AI Overviews describe me the way I want when someone asks for an SEO agency or an expert in my city.
+7. <b>dollar-a-day-strategist</b> — turn proven content into clients with $1/day boosts: pick winners, boost 7 days, kill the bottom 90%, scale the unicorns.
+8. <b>content-factory</b> — turn one recording (this mastermind, a client win, a podcast) into a blog post, clips, reels, posts, and ads, all pointing at one canonical article.
+9. <b>definitive-article-writer</b> — write the ONE canonical page that owns a topic — "SEO for [niche] in [city]," "how we get clients into AI Overviews" — the page Google and AI quote.
+10. <b>recursive-self-improvement-qa</b> — make any skill or agency SOP (onboarding, launches, reporting) document, QA, and sharpen itself each run.
+
+HOW TO WORK WITH ME
+- When I say "run [skill] on me" or "run [skill] on my agency," follow that skill: ask for the inputs it needs, then produce its output.
+- If I don't name one, start with personal-brand-strategist. For a recording, talk, or client story, use content-factory.
+- Be concrete and honest. Separate fact from aspiration. Quote me where you can — my voice, not corporate robot voice.
+- Remember my agency, city, buy box, white-label vs. gray-label model, and proof so later skills build on earlier ones.
+- If I ask "what skills do you have?" — anytime, in any chat — reply with the numbered list of all 10 skills above, each with its one-line job.
+- Write receipts to files (a short note after each job). Do not leave the only copy of the work inside this chat. Read Dennis's Grok playbook if you need the roster: https://dennisyu.com/how-i-use-grok-bot/
+
+START NOW, in this order:
+1) Confirm the install. Your first reply must begin with exactly: "✅ Optimize Live system installed — 10 skills loaded. Grok is the default. Ask me 'what skills do you have?' anytime to verify."
+2) Then ask me (1) my name, my agency or business, and my city, (2) the kind of clients I want more of — or whether I need my own name more visible than my agency's, and (3) optionally, paste what Grok, ChatGPT, or Claude already knows about me. Then run personal-brand-strategist.</pre>
+    </div>
+
+    <div class="row2">
+      <div class="mini">
+        <h4><span class="dot" style="background:var(--violet)"></span> Make it permanent (Grok first)</h4>
+        <p><b>Cursor:</b> drop the prompt into the Agent chat with <b>Grok 4.6</b> selected. Save the skill files in the repo — that is the memory.</p>
+        <p style="margin-top:8px"><b>Grok Bot:</b> one coordinator desk on day one. Load the skill pack from <b>github.com/dennisyu/blitzmetrics-skills</b>. Do not spin up 12 desks tonight.</p>
+        <span class="cmd">First hour: dennisyu.com/how-i-use-grok-bot</span>
+      </div>
+      <div class="mini">
+        <h4><span class="dot" style="background:var(--green)"></span> Then try it — say any of these</h4>
+        <span class="cmd">run personal-brand-strategist on me</span>
+        <span class="cmd">run ai-search-visibility on my agency</span>
+        <span class="cmd">run knowledge-panel-entity-seo on me</span>
+        <span class="cmd">use content-factory on this talk: [paste link]</span>
+      </div>
+    </div>
+  </div>
