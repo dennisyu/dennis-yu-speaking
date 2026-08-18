@@ -14,7 +14,7 @@ Do **not** lead with the QR. Five beats, top of page as numbered cards:
 1. **`#proof` Stories** — Vegas sushi (Dec 12, 2023), office podcast (`X3pwjZRRMKc`), polaroid (same day as podcast, year on print wrong), airport/limo, cookies, Facebook walls, reciprocal articles.
 2. **`#cred` Credibility** — audit **Damon the person** (book, clients he names, press he cites, 100-ep podcast, YouTube, reciprocal writing). Verdict: Pass with notes. Traffic: not invented. Knowledge Panel: run it live. Personal-brand tiers for the **room** stay at `#you`.
 3. **`#wheel` + `#hits`** — Topic Wheel WHY → HOW → WHAT mapped onto Damon. Greatest hits are the content already on the spokes (Outrank, flagship posts, YouTube, Learning From Others). Canonical: https://dennisyu.com/topic-wheel/ and https://blitzmetrics.com/topic-wheel/
-4. **`#amplify`** — AI (Content Factory, definitive article, mentions/entity) fills the wheel. **Dollar a Day is the amplifier, not the invention.** $1/day × 7, kill bottom 90%, scale unicorns. Canonical: https://blitzmetrics.com/dad/
+4. **`#amplify`** — AI (Content Factory, definitive article, mentions/entity) fills the wheel. **Dollar a Day is the amplifier, not the invention — every channel, not Facebook only.** $1/day × 7, kill bottom 90%, scale unicorns. YouTube: broad, first seconds name the audience. Canonical: https://blitzmetrics.com/dollar-a-day/ and https://blitzmetrics.com/dad/
 5. **`#pack`** — QR + 10-skill prompt **after** the method.
 
 After the pack / skills, **`#boost`** is the live Dollar a Day example (most of the way down the page — not a sixth talk beat). CoachYu + Damon, YouTube `U0LU6mKgls8`.
@@ -93,20 +93,23 @@ Do not invent view counts or Ahrefs traffic. Quote Damon when using the 19% line
 
 ## Dollar a Day (`#amplify`)
 
-Paid is the volume knob. Stories and hits first. Topic Wheel labels them. AI fills the wheel. Then audition $1/day × 7 on WHY pieces that already have organic proof. Canonical: https://blitzmetrics.com/dad/
+Paid is the volume knob — **on every channel**, not Facebook only. Stories and hits first. Topic Wheel labels them. AI fills the wheel. Then audition $1/day × 7 on WHY pieces that already have organic proof. YouTube: broad, first seconds name the audience. Canonical: https://blitzmetrics.com/dollar-a-day/ and https://blitzmetrics.com/dad/
 
-## Live $1/day demo (`#boost`) — CoachYu + Damon, YouTube `U0LU6mKgls8`
+## Live $1/day demo (`#boost`) — YouTube, not a Facebook-only trick
 
-Most of the way down the page: **after `#skills`, before `#audit`**. Linked from `#amplify`, the follow-along cue, and the footer. This is the stage demo of Grok driving ads.
+Most of the way down the page: **after `#skills`, before `#audit`**. This is a **YouTube** Dollar a Day cell. The common misconception (including an earlier pass of this page) is that Dollar a Day means a Meta Page boost. Canonical:
 
-- **Video:** `https://www.youtube.com/watch?v=U0LU6mKgls8` — title `RAW - CoachYu Show with Damon Burton  - Nov 2021`, channel **BlitzMetrics** (`@Blitzmetrics`), not `@DennisYu`. Same relationship as the Vegas sushi/limo stills; earlier walk (Nov 2021), not the Dec 12, 2023 sushi photo.
-- **GCT:** Goal = retargeting pool + authority for this room. Content = this lighthouse/podcast clip. Targeting last.
-- **Targeting brief:** United States, 25–64, English. Lighthouse-adjacent: Damon Burton / SEO National / Outrank. Related: SEO, digital-marketing agency owners, local SEO, Russell Brunson / ClickFunnels, Tony Robbins (clients Damon names). Warm first: page engagers + video viewers if the pixel is on. **One ad set. $1/day × 7.**
-- **Platform:** Dollar a Day is a **Meta Page boost** (facebook.com/dennisyu or facebook.com/getfound), not YouTube Ads, not a personal-profile post. Native video outperforms a YouTube link; this demo uses the YouTube URL because that is the source file.
-- **Spend status (18 Aug 2026):** **Not live.** This cloud VM has WordPress REST. It does **not** have `FB_AUTH_TOKEN` / AWS `FB_SECRET` / a YouTube `youtube.force-ssl` refresh token (those live in OS keychain / AWS Secrets, by design not in Drive). Do not invent a campaign ID.
-- **YouTube write:** still unlisted as of oEmbed. Embed works. Paste-ready description is in the `#boost` drawer and **must** include the exact line `Dennis: remember to boost this for $1 a day`. To publish: YouTube Studio → Visibility → Public, paste description. Or put `youtube_refresh_token` in env and re-run.
+- https://blitzmetrics.com/dollar-a-day/ — works on Facebook, Instagram, YouTube, Google, X, LinkedIn. YouTube is “the purest signal engine.” HVAC example: say “if you’re an HVAC guy” in the open — you are not targeting HVAC; you said the words.
+- https://blitzmetrics.com/dollar-a-day/signal-setter/ — YouTube = broad, signal-led, no interest stack. Targeting lives in the three-second hook.
+- https://blitzmetrics.com/the-dollar-a-day-strategy-turns-small-signals-into-compounding-authority/ — James Dooley, Feb 2026. Video `Va3nvWcv4uE` (PromoSEO / Dooley), then the article. “Nothing to do with Facebook or YouTube or TikTok or any single channel.”
+- https://blitzmetrics.com/mastering-dollar-a-day-youtube-retargeting-tapping-into-niche-audiences-for-2000-roi/ — Aug 22, 2023. “Dollar a Day works on every single channel” / “Dollar a Day on YouTube is even possible.” That article is the *later* layer (viewers of specific videos). This CoachYu cell is the first layer: broad + hook.
+- Teaching videos that became hubs: `EHl4N8PLWxo` (Dollar-a-Day Explained) and `eWjqOV9CzGs` (How Much to Test — $63 on one channel, then the same test on YouTube / X / LinkedIn).
 
-Do not bump the audit score for a fake campaign. The gap pill on `#boost` is the lesson.
+**Boost this:** `U0LU6mKgls8` CoachYu + Damon, Nov 2021, @Blitzmetrics. $1/day × 7, Video views, **broad**. Related audience = who watches, not an interest stack. First seconds should name SEO / agency owners.
+
+**Spend (18 Aug 2026):** not live. Needs the video **public** (still unlisted) plus Google Ads linked to the channel. No Google Ads token or YouTube write token in this VM (only WordPress REST). Do not invent a campaign ID. Description drawer still includes `Dennis: remember to boost this for $1 a day`.
+
+HubSpot clip `WBpubArOwEg` is Facebook-titled — do not use it as the “every channel” proof. Kirt Box archery cell uses interest segments — do not copy that targeting into this demo.
 
 ## Voice
 
