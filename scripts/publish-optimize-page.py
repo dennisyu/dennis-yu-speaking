@@ -34,6 +34,12 @@ UA = (
 def env_creds() -> tuple[str, str]:
     user = os.environ.get("DENNISYU_WP_USER") or os.environ.get("WP_USER")
     password = os.environ.get("DENNISYU_WP_APP_PASSWORD") or os.environ.get("WP_APP_PASSWORD")
+    if (not user or not password) and Path("/tmp/wp.env").is_file():
+        for line in Path("/tmp/wp.env").read_text(encoding="utf-8").splitlines():
+            if line.startswith("DENNISYU_WP_USER=") and not user:
+                user = line.split("=", 1)[1]
+            elif line.startswith("DENNISYU_WP_APP_PASSWORD=") and not password:
+                password = line.split("=", 1)[1]
     if not user or not password:
         print("MISSING_CREDS: set DENNISYU_WP_USER and DENNISYU_WP_APP_PASSWORD")
         sys.exit(2)
@@ -93,7 +99,7 @@ def main() -> None:
         "content": content,
         "comment_status": "closed",
         "ping_status": "closed",
-        # Limo selfie of Dennis + Damon until the bobblehead still finishes uploading.
+        # Limo selfie of Dennis + Damon. Swap to bobblehead still when it is in the media library.
         "featured_media": 37962,
     }
 
