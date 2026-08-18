@@ -3,7 +3,10 @@
 Damon Burton's Optimize Live mastermind (Layton, UT, August 17–19, 2026). Same scan-paste-done agent pack as DealCon, Wichita, DigiMarCon, JVA, and Dunker Spotlight, skinned for SEO agency owners — **Grok first**.
 
 - Live URL (once published): https://dennisyu.com/optimize
-- HTML: `pages/dennisyu-com-optimize.html` — paste as a Custom HTML block on a WordPress Page with slug `optimize`
+- HTML (one file, for Drive / local paste): `pages/dennisyu-com-optimize.html`
+- HTML (GitHub, two Custom HTML blocks if the single file is over the upload cap):
+  - `pages/dennisyu-com-optimize.html` — hero, prompt, this week's Grok articles, workbook
+  - `pages/dennisyu-com-optimize-part2.html` — audit, humans, Grok Bot first-hour install, pack updates
 - Workbook: existing Wichita PDF
 - Skill zip: DealCon-Skills-v3-23.zip (Aug 17, 2026 agency overlay)
 - Default runtime: Cursor + Grok 4.6 (workshop) and Grok Bot (named staff). Claude is the thin judgment slice.
