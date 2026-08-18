@@ -39,8 +39,10 @@ The Custom HTML includes a second JSON-LD `@graph` (`#optimize-entity-graph`) wi
 - PodcastSeries + PodcastEpisode + VideoObject: LSS Ep 1, YouTube `X3pwjZRRMKc`
 - ImageObject: each relationship photo with caption, dimensions, `about` people
 - HowTo: the 60-second install
-- FAQPage: matches the visible FAQ (includes “Where is the schema?”)
-- WebPageElement: `#audit`
+- FAQPage: matches the visible FAQ (includes “Where is the schema?” and “What are Damon’s greatest hits on this page?”)
+- WebPageElement: `#audit` and `#hits`
+- Book: Outrank (`#book-outrank`) + ItemList `#hits-list`
+- Extra VideoObject + Learning From Others PodcastSeries/Episode
 
 Visible HTML also has entity chips, `<address>`, `<time datetime>`, image `width`/`height` on the hero stills, and a FAQ. Featured image is set via REST (`featured_media` 37962, the limo selfie of Dennis + Damon) so `og:image` is not the generic 2022 headshot.
 
@@ -60,6 +62,19 @@ The page keeps an empty `#damon-bobblehead` slot and the audit marks it as a **g
 - Facebook posts: Damon calling Dennis a peer (Aug 2023); Dennis “more good peeps like Damon” / Damon share (Feb 2025); Damon promoting LSS Ep 1 (Nov 2025); Damon sharing Dennis+Justin (Dec 2022).
 - Podcast embed: YouTube `X3pwjZRRMKc`.
 - Reciprocal articles: Dennis on Damon; Damon on Dennis.
+
+## Damon’s greatest hits (`#hits`)
+
+Visual section after relationship proof, before the prompt. Ranked by **authority and channel**, not invented Ahrefs numbers. Brand bar + H1 cue + footer jump to it.
+
+- **Book:** *Outrank* (ISBN 1098302079, BookBaby 2020). Cover from Damon’s FreeSEObook funnel. Free PDF https://www.freeseobook.com/ · Amazon paperback · Audible `B08XMF2RFM`. William Jones quote screenshot from the same funnel.
+- **Site:** four cards with Damon’s own OG images — Tony Robbins SEO (homepage flagship), Why so many people suck at SEO (Entrepreneur), Where to start when you’re new to SEO, Simple But Great SEO Hack (19% line quoted as *his* caption).
+- **YouTube:** channel `@damon-burton` / `UC4pPbQZkRRMSlRo7pgwDyXg`. Embeds: `Hnm3Trj5F5Y` (SEO tools for beginners), `DHqE7NqzjkQ` (Brunson Inner Circle). Thumbs: Hormozi reaction, Andrew Roby Events case, work-life balance. LSS collab stays in `#proof` so it isn’t pasted twice.
+- **Podcast:** Learning From Others (Apple id `1434853529`, 100 episodes). Apple Podcasts embed of Dennis Yu guest ep `1000626303169` (31 Aug 2023). Artwork from learningfromothers.com.
+- **Clients:** name chips copied from https://www.damonburton.com/damon-burton/ — Tony Robbins, Brunson/ClickFunnels, Utah Jazz Team Store, Shark Tank, Inc. 5000, etc. No fake logos.
+- **Schema:** `Book` `#book-outrank`, `ItemList` `#hits-list`, extra `VideoObject`s, `PodcastSeries` `#podcast-lfo` + episode, `WebPageElement` `#hits`. FAQ question matches the visible copy.
+
+Do not invent view counts or Ahrefs traffic. Quote Damon when using the 19% line.
 
 ## Voice
 
