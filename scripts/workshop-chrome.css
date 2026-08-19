@@ -1,0 +1,75 @@
+/* workshop-chrome · 19 Aug 2026
+   Site header is XPro Theme Builder + Elementor (header 26488).
+   Social buttons are 10px boxes on a 4-column grid with 0 gap, so
+   20px Font Awesome glyphs overlap into a blob under the hamburger.
+   This block is unscoped on purpose — it only targets the header. */
+.elementor-26488 .xpro-social-icon-wrapper,
+.xpro-theme-builder-header .xpro-social-icon-wrapper{
+  display:flex !important;
+  flex-wrap:nowrap !important;
+  align-items:center !important;
+  justify-content:flex-end !important;
+  gap:16px !important;
+  grid-template-columns:none !important;
+  grid-column-gap:16px !important;
+  grid-row-gap:0 !important;
+  width:auto !important;
+}
+.elementor-26488 .xpro-social-icon-wrapper > li,
+.xpro-theme-builder-header .xpro-social-icon-wrapper > li{
+  list-style:none !important;
+  width:auto !important;
+  margin:0 !important;
+  padding:0 !important;
+}
+.elementor-26488 .xpro-social-icon,
+.xpro-theme-builder-header .xpro-social-icon{
+  width:40px !important;
+  height:40px !important;
+  min-width:40px !important;
+  min-height:40px !important;
+  margin:0 !important;
+  padding:0 !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  box-sizing:border-box !important;
+  overflow:visible !important;
+}
+.elementor-26488 .xpro-social-icon > i,
+.xpro-theme-builder-header .xpro-social-icon > i,
+.elementor-26488 .xpro-social-icon > svg,
+.xpro-theme-builder-header .xpro-social-icon > svg{
+  font-size:18px !important;
+  width:18px !important;
+  height:18px !important;
+  line-height:1 !important;
+}
+@media (max-width:767px){
+  /* Title + hamburger on one row. Hide the jammed social column. */
+  .elementor-26488 .elementor-element-39ee8b2a > .elementor-container{
+    display:flex !important;
+    flex-direction:row !important;
+    flex-wrap:nowrap !important;
+    align-items:center !important;
+    justify-content:space-between !important;
+    gap:8px !important;
+    min-height:56px;
+    padding:8px 14px !important;
+  }
+  .elementor-26488 .elementor-element-3783406e,
+  .elementor-26488 .elementor-element-70156ed{
+    width:auto !important;
+    max-width:none !important;
+  }
+  .elementor-26488 .elementor-element-3783406e{flex:1 1 auto !important}
+  .elementor-26488 .elementor-element-70156ed{flex:0 0 auto !important}
+  .elementor-26488 .elementor-widget-xpro-social-icon,
+  .xpro-theme-builder-header .elementor-widget-xpro-social-icon,
+  .elementor-26488 .elementor-element-1ec62003,
+  .elementor-26488 .elementor-element-71a5d41,
+  .elementor-26488 .elementor-element-851f82a{
+    display:none !important;
+  }
+}
+.ast-builder-social-element{margin-left:8px !important;margin-right:8px !important;padding:6px !important}
