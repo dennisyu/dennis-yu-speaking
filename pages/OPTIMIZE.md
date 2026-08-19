@@ -3,9 +3,21 @@
 Damon Burton's Optimize Live mastermind (Layton, UT, August 17–19, 2026, 1857 N Hill Field Rd, 84041). Same scan-paste-done agent pack as DealCon, Wichita, DigiMarCon, JVA, and Dunker Spotlight, skinned for SEO agency owners — **Grok first**.
 
 - Live URL: https://dennisyu.com/optimize/ (WordPress page 37958, author Dennis Yu / user 2)
+- All rooms index: https://dennisyu.com/workshops/
 - HTML (one file, for Drive / local paste / WP REST): `pages/dennisyu-com-optimize.html`
 - Schema injector: `scripts/inject-optimize-seo.py`
 - Publisher: `scripts/publish-optimize-page.py`
+- Header chrome fix (also on DealCon / Wichita / DigiMarCon / JVA): `scripts/workshop-chrome.css` + `scripts/patch-workshop-pages.py`
+
+## Mobile header (19 Aug 2026)
+
+Phone screenshot: site title, hamburger, then LinkedIn/Facebook/Instagram/X jammed into a blob. Cause: XPro/Elementor header **26488** sizes each `.xpro-social-icon` at **10×10px** on a 4-column grid with **0px gap**, while the Font Awesome glyphs are 20px — they overlap. Duplicate header sections (desktop / tablet / a leftover mobile copy) stack on a phone.
+
+Fix: `scripts/workshop-chrome.css` (injected as `<style id="workshop-chrome">`). Desktop: 40px icons, 16px gap. Phone: title + hamburger on one row; hide header social widgets. Scope page resets to `.wrap` so they cannot zero header padding.
+
+Same chrome on `/dealcon` `/wichita` `/digimarcon` `/jva` `/workshops` `/affiliateworld` `/activate` `/dunk-playbook` `/dunkademics` `/workshop`. Dunk Camp replica `dunkerspotlight.com/set-up-claude` is a different WordPress — no creds in this vault.
+
+**Index of replica rooms:** https://dennisyu.com/workshops/ (not `/speaking/`, which is the booking page).
 
 ## Live talk order (presenting in the room)
 
